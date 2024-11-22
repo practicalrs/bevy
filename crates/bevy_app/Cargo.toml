@@ -28,7 +28,7 @@ bevy_utils = { path = "../bevy_utils", version = "0.15.0-dev" }
 bevy_tasks = { path = "../bevy_tasks", version = "0.15.0-dev" }
 
 # other
-downcast-rs = "1.2.0"
+downcast-rs = { version = "1.2.0", default-features = false }
 derive_more = { version = "1", default-features = false, features = [
   "error",
   "from",
