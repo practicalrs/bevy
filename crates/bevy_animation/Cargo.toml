@@ -30,7 +30,7 @@ bevy_transform = { path = "../bevy_transform", version = "0.15.0-dev" }
 bevy_hierarchy = { path = "../bevy_hierarchy", version = "0.15.0-dev" }
 
 # other
-petgraph = { version = "0.6", features = ["serde-1"] }
+petgraph = { version = "0.6", default-features = false, features = ["serde-1"] }
 ron = "0.8"
 serde = "1"
 blake3 = { version = "1.0" }
