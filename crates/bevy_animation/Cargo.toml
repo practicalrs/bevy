@@ -31,8 +31,8 @@ bevy_hierarchy = { path = "../bevy_hierarchy", version = "0.15.0-dev" }
 
 # other
 petgraph = { version = "0.6", default-features = false, features = ["serde-1"] }
-ron = "0.8"
-serde = "1"
+ron = { version = "0.8", default-features = false }
+serde = { version = "1", default-features = false }
 blake3 = { version = "1.0" }
 derive_more = { version = "1", default-features = false, features = [
   "error",
